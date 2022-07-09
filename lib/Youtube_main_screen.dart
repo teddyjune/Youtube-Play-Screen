@@ -32,6 +32,23 @@ class YoutubeMainScreen extends StatelessWidget {
     '조회수 53만회 · 5개월 전',
   ];
 
+  final nameImage = [
+    'assets/kick.jpg',
+    'assets/kick.jpg',
+    'assets/kick.jpg',
+    'assets/kick.jpg',
+    'assets/kick.jpg',
+    'assets/kick.jpg',
+  ];
+  final name = [
+    '킥서비스',
+    '킥서비스',
+    '킥서비스',
+    '킥서비스',
+    '킥서비스',
+    '문화인',
+  ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -76,6 +93,8 @@ class YoutubeMainScreen extends StatelessWidget {
               playImage[index],
               playlistName[index],
               views[index],
+              nameImage[index],
+              name[index],
             ),
           );
         },

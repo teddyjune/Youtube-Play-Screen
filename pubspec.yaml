@@ -59,6 +59,7 @@ flutter:
     - assets/estate.jpg
     - assets/logo.png
     - assets/car.png
+    - assets/kick.png
 
 
   # The following line ensures that the Material Icons font is
